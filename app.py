@@ -5,7 +5,7 @@ import numpy as np
 import pickle
 
 # Load model
-model = pickle.load(open("model.pkl", "rb"))
+model = pickle.load(open("build.pkl", "rb"))
 
 st.title(" Car Insurance Prediction App")
 
